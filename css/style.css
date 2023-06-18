@@ -238,7 +238,7 @@ nav {
 }
 
 .toggle-checkbox:checked + .toggle-label {
-  background-color: #3d79f2;
+  background-color: #f51d39;
 }
 
 .toggle-checkbox:checked + .toggle-label:before {
@@ -247,8 +247,29 @@ nav {
 
 /* Estilos del modo oscuro */
 body.dark-mode {
-  background-color: #1a1a1a;
+  background-color: #333333;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+header.dark-mode {
+  background-color: #333333;
   color: #ffffff;
 }
- 
-  
+footer.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+body.dark-mode ul#menu :hover,
+body.dark-mode ul#menu a.active {
+  background-color: #f20505;
+}
+button[type="button"].dark-mode {
+  background-color: #33e453;
+}
+body.dark-mode button[type="button"]:hover {
+  background-color: #e21313;
+}
+#iconos-contacto.dark-mode {
+  filter: invert(100%);
+}
