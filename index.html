@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asdrúbal Ricardo Blanco Suárez</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="imgenes/favicon-sol.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon-sol.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Lato:wght@400;700&family=Work+Sans&display=swap" rel="stylesheet"> 
 </head>
 <body>
         <!-- logo, menu de navegacion -->
     <header>
-            <img src="imgenes/logo.png" class="logo" width="100px" alt="logo Grupo Blanco ">
+            <img src="images/logo.png" class="logo" width="100px" alt="logo Grupo ">
         <nav>
+            <div class="toggle-container">
+                <img src="images/sol.png" class="toggle-icon" alt="Toggle Sol">
+                <input type="checkbox" id="toggle" class="toggle-checkbox">
+                <label for="toggle" class="toggle-label"></label>
+                <img src="images/luna.png" class="toggle-icon" alt="Toggle Luna">
+            </div>           
             <ul id="menu">
                 <li class="menu-item">
-                    <a href="#inicio">Inicio</a>
+                    <a href="#inicio" class="active">Inicio</a>
                 </li>
                 <li class="menu-item">
                     <a href="#contacto">Contacto</a>
@@ -53,24 +59,24 @@
         <section id="contacto">
             <div class="contacto">
                 <h2 class="titulo">Hablemos!</h2><br>
-                <p> Les presento mi empresa, dedicados al desarrollo de proyectos web y desarrollo de aplicaciones, 
-                    con principal énfasis a los sectores: 
+                <p> Les presento mi empresa, dedicados a dar soluciones diversas: desarrollo de proyectos web y 
+                    desarrollo de aplicaciones, con principal énfasis a los sectores: 
                     <ul class="sectores">
                         <li>Agropecuario;</li>
                         <li>Maquinaria agrícola;</li>
                         <li>Transporte de carga pesada.</li>
                     </ul><br>
-                    Diseñamos su plan de actividades así como también, elaboramos herramientas e instrumentos 
-                    digitales para un mejor control de su empresa, planes de mantenimiento específicos para flotas,
+                    Diseñamos su plan de actividades así como también, elaboramos herramientas digitales para un mejor 
+                    control de su empresa, planes de mantenimiento específicos para flotas,
                     control de talleres agrícolas y talleres de camiones de carga pesada, manejo de datos, 
                     estimación de costos de operaciones, automatización de procesos en los sectores descritos. 
                 </p>
             </div>
             <!--Iconos para enlaces de la seccion contacto-->
             <div id="iconos-contacto">
-                <a href="https://github.com/asdru-b" target="_blank"><img src="imgenes/IMG_github.png" width="40px" alt="Enlace Github"></a>
-                <a href="http://www.linkedin.com/in/asdrubal-blanco-4535104b" target="_blank"><img src="imgenes/IMG_linkedin.png" width="40px" alt="Enlace Linkedin"></a>
-                <a href="mailto: blancoasdrubal81@gmail.com" target="_blank"> <img src="imgenes/IMG_mail.png" width="40px" alt="Enlace mail blancoasdrubal81@gmail.com"></a>
+                <a href="https://github.com/asdru-b" target="_blank"><img src="images/IMG_github.png" width="40px" alt="Enlace Github"></a>
+                <a href="http://www.linkedin.com/in/asdrubal-blanco-4535104b" target="_blank"><img src="images/IMG_linkedin.png" width="40px" alt="Enlace Linkedin"></a>
+                <a href="mailto: blancoasdrubal81@gmail.com" target="_blank"> <img src="images/IMG_mail.png" width="40px" alt="Enlace mail blancoasdrubal81@gmail.com"></a>
             </div>
         </section>   
     </main>
