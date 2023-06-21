@@ -89,18 +89,19 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    box-shadow: 0 3px 10px -5px #5f5f5f
+    box-shadow: 0 3px 10px -5px #5f5f5f;
   }
   ul#menu {
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
   }
   li.menu-item a {
     padding: 16px;
   }
   ul#menu :hover, 
   ul#menu a.active {
-    background-color: #3d79f2;
+    background-color: #c2d3ee;
+    border-radius: 20%;
     transition: 0.3s;
   }
 
@@ -129,7 +130,7 @@ body {
     text-align: justify;
   }
   button {
-    background-color: #3d79f2;
+    background-color: #0054dc;
     color: white;
     font-size: 20px;
     padding: 12px 20px;
@@ -139,7 +140,7 @@ body {
     border: none;
   }
   button[type="button"]:hover {
-    background-color: #0540f2;
+    background-color: #033485;
   }
   .contacto {
     background-color: #d9d9d9;
@@ -164,7 +165,7 @@ body {
 
   /*estilos de footer*/
   footer {
-    background-color: #3d79f2;
+    background-color: #424242;
     color: #fff;
     height: 90px;
     font-size: 12px;
@@ -189,6 +190,10 @@ body {
     #iconos-contacto {
       margin: 32px;
     }
+    ul#menu {
+      display: flex;
+      font-size: 20px;
+    }
   }
  
 
@@ -202,7 +207,8 @@ nav {
 .toggle-container {
   display: flex;
   align-items: center;
-  margin-right: 20px;
+  margin-right: px;
+  position: relative;
 }
 
 .toggle-icon {
@@ -220,7 +226,7 @@ nav {
   width: 50px;
   height: 25px;
   border-radius: 25px;
-  background-color: #ddd;
+  background-color: #424242;
   position: relative;
   cursor: pointer;
 }
@@ -238,7 +244,7 @@ nav {
 }
 
 .toggle-checkbox:checked + .toggle-label {
-  background-color: #f51d39;
+  background-color: #2f2f2f;
 }
 
 .toggle-checkbox:checked + .toggle-label:before {
@@ -247,29 +253,30 @@ nav {
 
 /* Estilos del modo oscuro */
 body.dark-mode {
-  background-color: #333333;
+  background-color: #323232;
   color: #ffffff;
   font-family: 'Inter', sans-serif;
 }
 header.dark-mode {
-  background-color: #333333;
+  background-color: #6d6d6d;
   color: #ffffff;
 }
 footer.dark-mode {
-  background-color: #333333;
+  background-color: #272727;
   color: #ffffff;
 }
 
 body.dark-mode ul#menu :hover,
 body.dark-mode ul#menu a.active {
-  background-color: #f20505;
+  background-color: #2f2f2f;
 }
 button[type="button"].dark-mode {
-  background-color: #33e453;
+  background-color: #747474;
 }
 body.dark-mode button[type="button"]:hover {
-  background-color: #e21313;
+  background-color: #272727;
 }
 #iconos-contacto.dark-mode {
   filter: invert(100%);
 }
+
